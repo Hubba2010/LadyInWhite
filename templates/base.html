@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title> {% block title %} Lady In White - Salon Sukien Ślubnych {% endblock title %}
+    </title>
+    <link rel="shortcut icon" type="image/PNG" href="static/images/Lady.PNG">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Metamorphous">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@510&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+<!--    <link href="//db.onlinewebfonts.com/c/ca6f91c0cad2fe33614026d17117601d?family=Edwardian+Script+ITC" rel="stylesheet" type="text/css" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/lightbox.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&display=swap" rel="stylesheet">
+    <script src="static/js/lightbox-plus-jquery.min.js"></script>
+
+    </head>
+<body>
+<header class="header">
+    <div class="max-width">
+        <a class="liw" href="/"> <span class="lady" style="font-size:9vw;"  > Lady in White </span>
+            <span class="art" > ART STUDIO  </span> </a>
+        <a href="https://www.facebook.com/xLadyInWhite" target="_blank" style="font-size:5vw;" class="fa fa-facebook-official"></a><br>
+            <div class="menu" id="top">
+                {% block header %}
+                <a href="#tex1" >O Salonie</a>
+                <a href="/galeria" >Kolekcje</a>
+                <a href="/galeria" >Galeria i Pokazy</a>
+                {% endblock header %}
+                <a href="https://www.google.com/maps/place/Lady+in+White/@51.2372241,22.5703423,17z/data=!3m1!4b1!4m5!3m4!1s0x4722571205254ded:0xdf9c519757eada34!8m2!3d51.2372241!4d22.572531" class="zloty" target="_blank">Lokalizacja</a>
+                <a href="#daneKontaktowe" > Kontakt</a>
+                <a href="https://www.facebook.com/xLadyInWhite" target="_blank" style="font-size:20px" class="fa fa-facebook-square"></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+    </div>
+
+    
+</header>
+
+<div id="background">
+{% block content %}
+    <div id="tex">
+        <p id="tex1" style="font-size:27px;text-transform:uppercase;font-weight: bold;"><b> Jesteśmy renomowaną firmą z wieloletnim doświadczeniem. </b> </p>
+        <p id="tex2" style="font-size:31px;font-weight: bold;"> Suknie są projektowane z wielką pasją aby sprostać wysokim oczekiwaniom. Kładziemy nacisk na każdy detal.
+            Mamy możliwość zaprojektowania i uszycia praktycznie każdej wymarzonej kreacji.
+            Służymy profesjonalną radą aby przyszła Panna Młoda dokonała wyboru tej jedynej wymarzonej sukni.
+            Słowem - zrobimy wszystko, żeby Was uszczęśliwić i zaspokoić Wasze potrzeby. </p>
+    </div>
+
+<div class="carousel-container">
+    <i class="fa fa-angle-left" id="prevBut"></i>
+    <i class="fa fa-angle-right" id="nextBut" ></i>
+        <div class="carousel-slide">
+                <img src="static/images/IMG_4364.JPG" width="360" height="500" id="LastClone">
+                <img src="static/images/Suknia-Roze.JPG" width="360" height="500" >
+                <img src="static/images/IMG_4407.JPG" width="360" height="500" >
+                <img src="static/images/IMG_3250.JPG" width="360" height="500" >
+                <img src="static/images/IMG_4854.JPG" width="360" height="500" >
+                <img src="static/images/IMG_2727.JPG" width="360" height="500" >
+                <img src="static/images/IMG_2944b.JPG" width="360" height="500" >
+                <img src="static/images/IMG_3187.JPG" width="360" height="500" >
+                <img src="static/images/IMG_3113.JPG" width="360" height="500" >
+                <img src="static/images/IMG_4657.JPG" width="360" height="500" >
+                <img src="static/images/IMG_4364.JPG" width="360" height="500" >
+                <img src="static/images/Suknia-Roze.JPG" width="360" height="500" id="FirstClone">
+        </div>
+</div>
+    <span id="wnetrze1">
+        <img src="static/images/wnetrze1.JPG"></span>
+        <span id="tex3" style="font-weight: bold;"> Projektowane suknie ślubne w Lady In White, są szyte z najlepszych materiałów dostępnych na rynku. Gwarantujemy, że każda
+        z Was otrzyma jedyną, niepowtarzalną suknię dostosowaną do swoich potrzeb, indywidulanie
+        dostosowaną do Waszej wizji tego jak chcecie wyglądać w tym najważniejszym dla Was dniu.
+            Szycie na miejscu, gwarantuje idealne dopasowanie do sylwetki.</span>
+    <div id="gora">
+        <img src="static/images/wnetrze2.JPG"></div>
+    {% endblock content %}
+<div id="bialy">
+<div id="daneKontaktowe">
+    <p style="font-size:30px;font-family:Playfair Display;font-weight:bold;"> DANE KONTAKTOWE</p>
+    <ul style="list-style:none;">
+        <li>
+
+            <span><i class="fa fa-phone" style="font-size:36px;text-shadow:none;"></i></span>
+            <span class="dane"> 661 847 930 </span>
+
+        </li>
+        <li>
+
+            <a id="mail" href="https://profil.wp.pl/login.html?zaloguj=poczta"><i class="fa fa-envelope-o" style="font-size:26px"></i></a>
+            <span class="dane">  Sylviana33@wp.pl </span>
+
+        </li>
+        <li>
+
+            <a id="location" href="https://www.facebook.com/xLadyInWhite"><i class="fa fa-map-marker" style="font-size:40px"></i></a>
+            <span class="dane">  Ul. Fabryczna 3A/12 </span>
+
+        </li>
+        <li>
+
+            <span class="dane">  20-301 Lublin </span>
+
+        </li>
+        <li>
+
+            <span class="dane">  Polska </span>
+
+        </li>
+
+    </ul>
+</div>
+<div id="godzinyOtwarcia">
+    <table>
+        <tr>
+            <th style="font-size:30px;font-family: 'Playfair Display';text-transform: uppercase;font-weight: bold;">Godziny Otwarcia</th>
+        </tr>
+
+            <tr class="tfont">
+                <td>Poniedziałek</td>
+                <td>10:00 - 18:00</td>
+            </tr>
+
+            <tr class="tfont">
+                <td>Wtorek</td>
+                <td>10:00 - 18:00</td>
+            </tr>
+
+            <tr class="tfont">
+                <td>Środa</td>
+                <td>10:00 - 18:00</td>
+            </tr>
+            <tr class="tfont">
+                <td>Czwartek</td>
+                <td>10:00 - 18:00</td>
+            </tr>
+            <tr class="tfont">
+                <td>Piątek</td>
+                <td>10:00 - 18:00</td>
+            </tr>
+            <tr class="tfont">
+                <td>Sobota</td>
+                <td>10:00 - 14:00</td>
+            </tr>
+            <tr class="tfont">
+                <td>Niedziela</td>
+                <td>Nieczynne</td>
+            </tr>
+    </table>
+</div>
+</div>
+</div>
+<button id="backToTop" style="border-color: black;"> <i class="fa fa-angle-double-up"></i> </button>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("top");
+  if (x.className === "menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu";
+  }
+
+}
+</script>
+<script>
+
+const backToTopButton = document.querySelector("#backToTop");
+
+window.addEventListener("scroll", scrollFunction);
+
+function scrollFunction() {
+    if ((window.outerHeight + window.pageYOffset) > document.body.offsetHeight) {
+        backToTopButton.style.display = "block";
+    }
+    else {
+        backToTopButton.style.display = "none";
+    }
+}
+
+backToTopButton.addEventListener("click", back)
+
+function back(){
+    window.scrollTo(0, 0);
+}
+
+</script>
+<script src="static/js/app.js"></script>
+
+</body>
+</html>

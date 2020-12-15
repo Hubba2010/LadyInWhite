@@ -1,0 +1,461 @@
+@import url(//db.onlinewebfonts.com/c/ca6f91c0cad2fe33614026d17117601d?family=Edwardian+Script+ITC);
+.header {
+    color: white;
+    background-color: black;
+    padding-top: 9px;
+}
+
+@media screen and (max-width: 660px){
+.fa-facebook-official {
+    visibility: hidden;
+}
+}
+
+@media screen and (min-width: 660px){
+.fa-facebook-square {
+    visibility: hidden;
+}
+}
+.art {
+    color: white;
+    margin-left: 15px;
+    font-family: "Metamorphous";
+    font-size: 16px;
+    line-height: 0.6px;
+
+}
+
+.fa-facebook-official {
+    right: 100px;
+    top: 40px;
+}
+
+.menu a .fa-bars {
+    font-size: 30px;
+}
+
+.fa-facebook-official {
+    color: white;
+    position: absolute;
+}
+
+.fa-facebook:hover  {
+    text-decoration:none;
+}
+
+.max-width{
+    width: 100%;
+}
+.lady{
+    margin-left: 10px;
+    font-family: "Edwardian Script ITC";
+    font-size: 90px;
+    color: white;
+}
+
+.liw:hover span {
+    color: #eccbcc;
+}
+.liw:hover{
+    text-decoration: none;
+}
+@font-face {font-family: "Edwardian Script IC";
+src: url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.eot"),
+        src: url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.eot?#iefix") format('embedded-opentype'),
+        src: url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.woff2") format('woff2'),
+        src: url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.woff") format('woff'),
+        src: url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.ttf") format('truetype'),
+        src: url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.svg#Edwardian Script ITC") format('svg');
+
+}
+.menu {
+  overflow: hidden;
+  background-color: black;
+  letter-spacing: 4px;
+  font-family: 'Edwardian Script ITC', cursive;
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 2px 7px;
+  text-decoration: none;
+  font-size: 34px;
+  margin: 9px 24px;
+  margin-bottom: 10px;
+}
+
+.menu a:hover:not(.fa-facebook) {
+  color: #eccbcc;
+  text-decoration: none;
+}
+.icon {
+    transition: all .1s ease-in-out;
+}
+
+.menu .icon {
+  display: none;
+}
+
+@media screen and (max-width: 660px) {
+  .menu a {display: none;}
+  .menu a.icon {
+    float: right;
+    display: block;
+  }
+
+}
+
+
+/*@media screen and (max-width: 660px) {
+ .art {
+    text-align: left;
+    margin-bottom: 40px;
+ }
+}
+*/
+
+
+@media screen and (max-width: 660px) {
+  .menu.responsive {position: relative;}
+  .menu.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin: 9px 24px;
+
+  }
+}
+#tex {
+padding: 20px 20px;
+margin-left: 10px;
+max-width: 70%;
+letter-spacing: 1.3px;
+float: left;
+text-align: center;
+vertical-align: middle;
+line-height: 60px;
+flex-wrap: wrap;
+}
+#tex1{
+font-family: "Playfair Display";
+}
+@font-face {
+    font-family: 'Monotype Corsiva';
+    src: url('/static/fonts/MTCORSVA.TTF') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('/static/fonts/Piazzolla.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Edwardian Script ITC';
+    src: url('/static/fonts/ITCEDSCR.TTF') format('truetype');
+
+}
+#tex2{
+font-family: "Monotype Corsiva";
+}
+#tex3 {
+font-family: "Monotype Corsiva";
+max-width: 28%;
+position: absolute;
+margin-left: 20px;
+letter-spacing: 1.2px;
+min-width: 15%;
+font-size: 31px;
+}
+@media screen and (max-width: 1422px) {
+#tex3 {
+    font-size: 26.7px;
+
+}}
+/*@media screen and (min-width: 1800px) {#background{
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(117, 19, 93, 0.00) 2%),
+url("/static/images/Rose.jpg");
+filter: grayscale(30%);
+background-size: 100%;
+
+}}
+@media screen and (max-width: 1800px) {#background{
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(117, 19, 93, 0.00) 2%),
+url("/static/images/Rose.jpg");
+filter: grayscale(30%);
+background-size: cover;
+}}
+*/
+#background{
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(117, 19, 93, 0.00) 1.5%),
+url("/static/images/Rose2.jpg");
+filter: grayscale(20%);
+background-size: cover;
+}
+.carousel-container {
+width: 360px;
+border: 5px solid black;
+overflow: hidden;
+position: relative;
+float: left;
+}
+
+.carousel-slide {
+display: flex;
+width: 100%;
+}
+#gora img {
+    width: 100%;
+    border: 5px solid black;
+}
+
+@media screen and (max-width: 1250px) {
+#tex {
+max-width: 100%;
+padding: 3px 3px;
+margin-left: 5px;
+padding-top: 20px;
+}}
+@media screen and (max-width: 1250px) {
+.carousel-container {
+    align: left;
+}}
+@media screen and (max-width: 1250px) {
+#tex3 {
+display: -webkit-inline-box;
+position: static;
+max-width: 100%;
+}
+}
+#prevBut {
+    position: absolute;
+    top: 47%;
+    z-index: 10;
+    left: 5%;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+#nextBut {
+    position: absolute;
+    top: 47%;
+    z-index: 10;
+    right: 5%;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+#prevBut:hover {
+    opacity: 0.7;
+}
+#nextBut:hover {
+    opacity: 0.7;
+}
+.carousel-slide img{
+    transition: 2s;
+}
+.carousel-slide img:hover{
+    filter: saturate(155%);
+    transition: 2s ease;
+    transform: scale(1.08);}
+
+.gallery img{
+  border: 5px solid black;
+}
+
+#wnetrze1 img{
+    border: 5px solid black;
+    width: 70%;
+    margin: none;
+}
+@media screen and (max-width: 1250px) {
+#wnetrze1 img {
+   height: 509.6px;
+   max-width: 57%;
+}
+}
+@media screen and (max-width: 860px) {
+#wnetrze1 img{
+   width: auto;
+   height: auto;
+   max-width: 100%;
+}}
+@media screen and (max-width: 860px) {
+.carousel-container {
+    margin-right: auto;
+    margin-left: auto;
+    align: center;
+    float: none;
+}}
+
+#daneKontaktowe {
+    padding-top: 40px;
+    margin-left: 30px;
+    min-width: 50%;
+    display: inline-grid;
+    position: relative;
+    top: -10px;
+}
+#godzinyOtwarcia {
+    display: inline-grid;
+}
+
+.dane {
+    font-family: 'Castoro';
+    font-size: 25px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.tfont{
+    font-family: 'Castoro';
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1100px) {
+#godzinyOtwarcia {
+    margin-left: 30px;
+    display: block;
+
+}}
+
+#bialy{
+  border-top: 20px solid rgba(255, 255, 255, .3);
+  border-bottom: 20px solid rgba(255, 255, 255, .3);
+  border-right: 15px solid rgba(255, 255, 255, .3);
+  border-left: 15px solid rgba(255, 255, 255, .3);
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+}
+
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 27px;
+    outline: none;
+    cursor: pointer;
+    color: #000;
+    border-width: medium;
+    background-color: transparent;
+    transition-duration: 0.2s;
+    border-radius: 50%;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+    animation: fadein 0.7s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/*
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}*/
+#backToTop:hover, #backToTop:focus {
+    background-color: #000;
+    color: #fff;
+
+}
+
+@media screen and (max-width: 575px) {
+#backToTop {
+    bottom: 300px;
+}}
+
+#location {
+    text-decoration: none;
+    color: black;
+    text-shadow:none;
+}
+
+#location:hover {
+    color: red;
+}
+#mail {
+    text-decoration: none;
+    color: black;
+    text-shadow: none;
+}
+
+#mail:hover {
+    text-decoration: none;
+    background: #ffac00;
+
+}
+
+#row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.gallery {
+    border-top: 3px solid black;
+
+}
+
+.column2 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .column2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
