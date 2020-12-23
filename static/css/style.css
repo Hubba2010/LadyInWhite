@@ -263,6 +263,12 @@ max-width: 100%;
 .carousel-slide img{
     transition: 2s;
 }
+@-moz-document url-prefix() {
+  .carousel-slide img {
+     height: 540px;
+  }
+}
+
 .carousel-slide img:hover{
     filter: saturate(155%);
     transition: 2s ease;
@@ -283,6 +289,13 @@ max-width: 100%;
    max-width: 57%;
 }
 }
+
+@-moz-document url-prefix() {
+@media screen and (max-width: 1250px) {
+#wnetrze1 img {
+   height: 549.6px;
+}}}
+
 @media screen and (max-width: 860px) {
 #wnetrze1 img{
    width: auto;
@@ -347,8 +360,7 @@ html {
     font-size: 27px;
     outline: none;
     cursor: pointer;
-    color: #000;
-    border-width: medium;
+    border: 3px solid black;
     background-color: transparent;
     transition-duration: 0.2s;
     border-radius: 50%;
