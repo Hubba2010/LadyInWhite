@@ -262,6 +262,8 @@ max-width: 100%;
 }
 .carousel-slide img{
     transition: 2s;
+    width: 360px;
+    height: 540px;
 }
 @-moz-document url-prefix() {
   .carousel-slide img {
@@ -285,16 +287,16 @@ max-width: 100%;
 }
 @media screen and (max-width: 1250px) {
 #wnetrze1 img {
-   height: 509.6px;
+   height: 549.6px;
    max-width: 57%;
 }
 }
 
-@-moz-document url-prefix() {
+/*@-moz-document url-prefix() {
 @media screen and (max-width: 1250px) {
 #wnetrze1 img {
    height: 549.6px;
-}}}
+}}} */
 
 @media screen and (max-width: 860px) {
 #wnetrze1 img{
